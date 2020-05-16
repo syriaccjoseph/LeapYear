@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<project name="Leap Year" default="compile">
+    <property name="src" location="src"></property>
+    <property name="build" location="build"></property>
+    <target name="init">
+        <mkdir dir="${build}"></mkdir>
+    </target>
+    <target name="compile" depends="init">
+        <javac srcdir="${src}" destdir="${build}"></javac>
+    </target>
+    <target name="clean">
+        <delete dir="${build}"></delete>
+    </target>
+</project>
