@@ -11,6 +11,5 @@ ant compile
 ```
 ## Execute LeapYear
 ```shell script
-cd build/
-java org.assessments.LeapYear
+bash ./leapyear.sh
 ```
