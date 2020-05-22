@@ -1,8 +1,12 @@
-# IDE folder
+# IDE
 .idea
 
 # IDEA configuration
 *.iml
 
 # Binaries
-build
+build/
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar

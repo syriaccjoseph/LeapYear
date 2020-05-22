@@ -1,6 +1,6 @@
-package org.assessments;
+package org.assessments.leapyear;
 
-public class LeapYear {
+public class App {
 
     public static void main(String[] args) {
 	    System.out.println("Leap Year app");

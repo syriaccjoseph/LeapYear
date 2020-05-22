@@ -1,8 +1,8 @@
 #!/bin/bash
-cd build
+cd build/classes/java/main
 if [ $# -eq 0 ]
   then
-    java org.assessments.LeapYear
+    java org.assessments.leapyear.App
   else
-    java org.assessments.LeapYear $1
+    java org.assessments.leapyear.App $1
   fi

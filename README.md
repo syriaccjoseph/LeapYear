@@ -2,12 +2,12 @@
 Leap year is a command line java program which computes
 whether an year is a leap year or not.
 
-[JDK 14](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html) is recommended
+[JDK 8](https://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) is recommended
 
 ## Building LeapYear
-Build the program using [Apache Ant](https://ant.apache.org)
+Build the program using [Gradle](https://gradle.org)
 ```shell script
-ant compile
+gradle build
 ```
 ## Execute LeapYear
 ```shell script
